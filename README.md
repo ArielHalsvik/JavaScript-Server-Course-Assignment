@@ -20,7 +20,7 @@ Login to see meme details. Find username and password in /data/users.json.
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/noroff-backend-1/aug23ft-jss-ca-ArielHalsvik
+    git clone https://github.com/ArielHalsvik/JavaScript-Server-Course-Assignment
     ```
 
 2. **Open the terminal:**
