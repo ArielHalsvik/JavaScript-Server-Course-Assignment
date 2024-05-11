@@ -2,38 +2,80 @@
 <html lang="en">
 
 <head>
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="../../css/bootstrap.min.css" />
-  <link href="../../stylesheets/navbar.css" rel="stylesheet">
+  <title>Memes Overview</title>
+  <%- include('./partials/head.ejs') %>
 </head>
 
 <body class="position-relative" data-bs-spy="scroll">
   <%- include('./partials/navbar.ejs') %>
-    <section class="container">
-      <table class="table" id="table">
-        <thead>
-          <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Size</th>
-            <th scope="col">Image</th>
-            <th scope="col">Options</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">
-            </th>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <%- include('./partials/scripts.ejs') %>
-</body>
+  <section class="container">
 
+    <form action="/memes" method="GET">
+      <label for="searchTerm">Search Term:</label>
+      <input type="text" id="searchTerm" name="searchTerm">
+      <button type="submit" class="btn btn-success px-4">Search</button>
+    </form>
+
+    <table class="table" id="table">
+      <thead>
+        <tr>
+          <th scope="col">Image</th>
+          <th scope="col">Name</th>
+          <th scope="col">Details</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% if (searchTerm && filteredData.length > 0) { %>
+          <% filteredData.forEach(function(meme){ %>
+            <tr class="tableRow" data-id="<%= meme.id %>">
+              <td class="p-4">
+                <img src="<%= meme.url %>" alt="<%= meme.name %>" width="20%">
+              </td>
+              <td>
+                <%= meme.name %>
+              </td>
+              <td class="p-4">
+                
+                <% if (loggedIn) { %>
+                <button id="memeDetailsBtn" data-id="<%= meme.id %>" type="button" class="btn btn-success px-4">
+                  Details
+                </button>
+                <% } %>
+
+              </td>
+            </tr>
+          <% }); %>
+
+        <% } else if (searchTerm && !filteredData.length > 0) { %>
+            <p>Sorry, no meme matched your search input :c</p>
+
+        <% } else { %>
+          <% data.forEach(function(meme){ %>
+            <tr class="tableRow" data-id="<%= meme.id %>">
+              <td class="p-4">
+                <img src="<%= meme.url %>" alt="<%= meme.name %>" width="20%">
+              </td>
+              <td>
+                <%= meme.name %>
+              </td>
+              <td class="p-4">
+                
+                <% if (loggedIn) { %>
+                <button id="memeDetailsBtn" data-id="<%= meme.id %>" type="button" class="btn btn-success px-4">
+                  Details
+                </button>
+                <% } %>
+
+              </td>
+            </tr>
+          <% }); %>
+        <% } %>
+
+      </tbody>
+    </table>
+  </section>
+
+  <%- include('./partials/scripts.ejs') %>
+</body>
 </html>

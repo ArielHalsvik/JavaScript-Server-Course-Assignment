@@ -1,0 +1,144 @@
+{
+    "memes": [
+        {
+            "id": 126,
+            "name": "This Is Fine",
+            "url": "http://images.restapi.co.za/memes/wxica.jpg",
+            "width": 580,
+            "height": 282
+        },
+        {
+            "id": 192,
+            "name": "Dad Joke Meme",
+            "url": "http://images.restapi.co.za/memes/yk3wp.jpg",
+            "width": 960,
+            "height": 720
+        },
+        {
+            "id": 137,
+            "name": "Sleeping Shaq",
+            "url": "http://images.restapi.co.za/memes/1nck6k.jpg",
+            "width": 640,
+            "height": 631
+        },
+        {
+            "id": 169,
+            "name": "Evil Kermit",
+            "url": "http://images.restapi.co.za/memes/1e7ql7.jpg",
+            "width": 700,
+            "height": 325
+        },
+        {
+            "id": 151,
+            "name": "Ancient Aliens",
+            "url": "http://images.restapi.co.za/memes/26am.jpg",
+            "width": 500,
+            "height": 437
+        },
+        {
+            "id": 187,
+            "name": "What Gives People Feelings of Power",
+            "url": "http://images.restapi.co.za/memes/2xytmc.jpg",
+            "width": 960,
+            "height": 851
+        },
+        {
+            "id": 199,
+            "name": "Valentine's Day Card Meme",
+            "url": "http://images.restapi.co.za/memes/24h8wm.jpg",
+            "width": 640,
+            "height": 351
+        },
+        {
+            "id": 128,
+            "name": "Marked Safe From",
+            "url": "http://images.restapi.co.za/memes/2odckz.jpg",
+            "width": 618,
+            "height": 499
+        },
+        {
+            "id": 136,
+            "name": "Laughing Leo",
+            "url": "http://images.restapi.co.za/memes/4acd7j.png",
+            "width": 470,
+            "height": 470
+        },
+        {
+            "id": 109,
+            "name": "Gru's Plan",
+            "url": "http://images.restapi.co.za/memes/26jxvz.jpg",
+            "width": 700,
+            "height": 449
+        },
+        {
+            "id": 189,
+            "name": "Trump Bill Signing",
+            "url": "http://images.restapi.co.za/memes/1ii4oc.jpg",
+            "width": 1866,
+            "height": 1529
+        },
+        {
+            "id": 135,
+            "name": "Flex Tape",
+            "url": "http://images.restapi.co.za/memes/2reqtg.png",
+            "width": 510,
+            "height": 572
+        },
+        {
+            "id": 130,
+            "name": "Y'all Got Any More Of That",
+            "url": "http://images.restapi.co.za/memes/21uy0f.jpg",
+            "width": 600,
+            "height": 471
+        },
+        {
+            "id": 155,
+            "name": "Is This A Pigeon",
+            "url": "http://images.restapi.co.za/memes/1o00in.jpg",
+            "width": 1587,
+            "height": 1425
+        },
+        {
+            "id": 172,
+            "name": "You Guys are Getting Paid",
+            "url": "http://images.restapi.co.za/memes/2xscjb.png",
+            "width": 520,
+            "height": 358
+        },
+        {
+            "id": 144,
+            "name": "Megamind peeking",
+            "url": "http://images.restapi.co.za/memes/64sz4u.png",
+            "width": 540,
+            "height": 540
+        },
+        {
+            "id": 198,
+            "name": "elmo cocaine",
+            "url": "http://images.restapi.co.za/memes/2bqzyl.jpg",
+            "width": 320,
+            "height": 320
+        },
+        {
+            "id": 125,
+            "name": "Blank Nut Button",
+            "url": "http://images.restapi.co.za/memes/1yxkcp.jpg",
+            "width": 600,
+            "height": 446
+        },
+        {
+            "id": 131,
+            "name": "American Chopper Argument",
+            "url": "http://images.restapi.co.za/memes/2896ro.jpg",
+            "width": 640,
+            "height": 1800
+        },
+        {
+            "id": 166,
+            "name": "The Rock Driving",
+            "url": "http://images.restapi.co.za/memes/grr.jpg",
+            "width": 568,
+            "height": 700
+        }
+    ]
+}

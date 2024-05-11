@@ -2,19 +2,24 @@
 <html lang="en">
 
 <head>
-  <title>Meme Info</title>
-  <link rel="stylesheet" href="../css/bootstrap.min.css" />
-  <link href="../stylesheets/navbar.css" rel="stylesheet">
-  <link rel="stylesheet" href="../stylesheets/meme.css">
+  <title>Meme Details</title>
+  <%- include('./partials/head.ejs') %>
 </head>
 
 <body class="position-relative" data-bs-spy="scroll">
   <%- include('./partials/navbar.ejs') %>
-    <section class="container">
-
-    </section>
-
-    <%- include('./partials/scripts.ejs') %>
+  <section class="container">
+    <h1>Meme Details</h1>
+    <h5><span class="fw-bold">Name:</span> <%= meme.name %></h5>
+    <img src="<%= meme.url %>" alt="<%= meme.name %>" width="50%" class="pb-2">
+    <p><span class="fw-bold">ID:</span> <%= meme.id %></p>
+    <p><span class="fw-bold">URL:</span> <%= meme.url %></p>
+    <div><span class="fw-bold fs-6">Dimensions:</span>
+      <p><span class="fw-bold">Width:</span> <%= meme.width %></p>
+      <p><span class="fw-bold">Height:</span> <%= meme.height %></p>
+    </div>
+  </section>
+  <%- include('./partials/scripts.ejs') %>
 </body>
 
 </html>
