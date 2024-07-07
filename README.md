@@ -1,6 +1,6 @@
 # Course Assignment Information
 
-This is a JavaScript Server Course Assignment I got at the beginning of my second semester at my Backend development degree. The task was to finish a code that was about 25% complete, and not all the functionality had been done. The task was to fix the errors, see what has been done and complete what still needs to be done.
+This is a JavaScript Server Course Assignment I got at the beginning of my second semester at my Backend development degree. The task was to finish a code that was about 25% complete, and not all the functionality had been done. The task was to fix the errors, see what has been done and complete what still needs to be done. This task was done by me alone.
 
 The *Initial Commit* is the original code I got for the assignment.
 
